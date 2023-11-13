@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo - Data Professional Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h1, h2, h3 {
+            color: #007bff;
+        }
+
+        .project-card {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin-left: -10px;
+            background-color: #007bff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+        }
+
+        .timeline-item .timeline-content {
+            position: relative;
+            margin-left: 30px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Leonardo</h1>
+        <p class="lead">Data Professional | Aspiring Developer</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="lead text-center">Welcome to my portfolio! I am a data professional passionate about extracting insights from data. With a strong foundation in data analysis, I'm now exploring the realms of data engineering and development.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Data Analysis</h3>
+                    <p>Exploratory Data Analysis, Data Visualization, Statistical Analysis</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Programming</h3>
+                    <p>Python, SQL</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Data Engineering</h3>
+                    <p>ETL Processes, Data Warehousing, Big Data Technologies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="text-center mb-4">Experience</h2>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Data Analyst | XYZ Company</h3>
+                    <p>Responsible for conducting in-depth data analysis, providing actionable insights, and contributing to data-driven decision-making processes. Collaborated with cross-functional teams to deliver high-impact analytical solutions.</p>
+                    <p class="text-muted">January 2020 - Present</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Data Intern | ABC Corporation</h3>
+                    <p>Assisted in data cleaning, transformation, and visualization tasks. Gained hands-on experience with various data analysis tools and techniques. Contributed to team projects and delivered data-driven reports.</p>
+                    <p class="text-muted">May 2019 - December 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h3 class="card-title">Sales Forecasting Dashboard</h3>
+                            <p class="card-text">Developed an interactive dashboard for sales forecasting using Python and Tableau, integrating multiple data sources for accurate predictions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h3 class="card-title">Customer Segmentation Analysis</h3>
+                            <p class="card-text">Conducted a customer segmentation analysis using clustering algorithms, leading to targeted marketing strategies and increased customer engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <p class="lead text-center">I'm open to new opportunities and collaborations. Feel free to reach out!</p>
+            <p class="text-center">Email: leonardo@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Leonardo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
